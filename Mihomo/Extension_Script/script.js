@@ -96,16 +96,7 @@ function overwriteFakeIpFilter (params) {
         "*.stun.twilio.com",
         "stun.syncthing.net",
         "stun.*",
-        "lancache.steamcontent.com",
-        "127.*.*.*.sslip.io",
-        "127-*-*-*.sslip.io",
-        "*.127.*.*.*.sslip.io",
-        "*-127-*-*-*.sslip.io",
-        "127.*.*.*.nip.io",
-        "127-*-*-*.nip.io",
-        "*.127.*.*.*.nip.io",
-        "*-127-*-*-*.nip.io",
-        "127.atlas.skk.moe"
+        "lancache.steamcontent.com"
     ];
     params.dns["fake-ip-filter"] = fakeIpFilter;
 }
